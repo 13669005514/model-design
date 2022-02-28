@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: web
+  jmx:
+    enabled: false
+  servlet:
+    multipart:
+      max-file-size: 200MB
+      max-request-size: 200MB
+  profiles:
+    active: dev
+server:
+  port: 8088
