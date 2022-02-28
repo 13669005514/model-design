@@ -1,4 +1,4 @@
-package com.supermap.model.design.factory.prototype;
+package com.supermap.model.design.prototype;
 
 import lombok.Data;
 
