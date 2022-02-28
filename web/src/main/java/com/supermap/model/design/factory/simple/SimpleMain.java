@@ -8,7 +8,10 @@ package com.supermap.model.design.factory.simple;
 public class SimpleMain {
 
     public static void main(String[] args) {
-        System.out.println("111");
+        CarAbstract suv = SimpleFactory.createCar("suv");
+        suv.run();
+        CarAbstract mpv = SimpleFactory.createCar("mpv");
+        mpv.run();
     }
 
 }
