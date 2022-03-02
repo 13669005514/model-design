@@ -6,8 +6,6 @@ package com.supermap.model.design.proxy.cglb;
  */
 public class Apple  {
 
-
-
     public String create() {
         System.out.println("创建了一个苹果");
         return "apple";
