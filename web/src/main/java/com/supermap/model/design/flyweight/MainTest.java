@@ -20,6 +20,8 @@ public class MainTest {
         waiter2.end();
         AbstractWaiter waiter4 = Hotel.getWaiter();
         waiter4.start();
+
+
     }
 
 }
